@@ -107,9 +107,6 @@ int main(){
     };
 
     vector<vector<int>> D = {};
-    //printMatrix(scale(b, 3));
-    // printMatrix(multiply(b, transpose(c)));
-    // printMatrix(transpose(c));
     D = add(A, (multiply(scale(B,3), transpose(C))));
     printMatrix(D);
     return 0;
